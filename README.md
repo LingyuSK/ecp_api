@@ -19,7 +19,7 @@ MySQL 5.7+
 页面演示
 输入图片说明 输入图片说明
 
-系统演示
+## 系统演示
 采购商管理后台地址 https://demo1.lingyusk.com/front
 
 供应商后台管理地址 https://demo1.lingyusk.com/front
@@ -30,22 +30,22 @@ MySQL 5.7+
 
 供应商账号：demo@lingyusk.com 密码：ecp@2024
 
-定时任务
+## 定时任务
 用于自动处理招标采购系统自动开标以及报名截至等时间相关状态的更新
 
 php artisan schedule:run
 
-消息队列
+## 消息队列
 用于邮件等的处理
 
 php artisan queue:listen
 
-消息通信
+## 消息通信
 用于竞价信息同步
 
 php artisan workman start|stop|restart
 
-安全&缺陷
+## 安全&缺陷
 如果您碰到安装和使用问题可以加群联系管理员，将操作流程和截图详细发出来，我们看到后会给出解决方案。
 
 如果有BUG或者安全问题，我们会第一时间修复。
