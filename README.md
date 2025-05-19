@@ -1,26 +1,51 @@
-# Lumen PHP Framework
+星易采
+项目介绍
+星易采，是全新推出的一款轻量级、高性能、前后端分离的采购管理系统，后端源码完全开源，包含供应商管理、采购询价、采购竞价、采购招标等功能。
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+技术特点
+前后端完全分离 (互不依赖 开发效率高)
+采用PHP8.2+
+lumen（轻量级PHP开发框架）
+Composer一键引入三方扩展
+简约高效的编码风格
+安装教程
+教程地址：https://doc.ruizhaocai.com/#/deploy/
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+环境要求
+CentOS 7.0+ 、Ubuntu 20+
+Nginx 1.10+
+PHP 8.2
+MySQL 5.7+
+页面演示
+输入图片说明 输入图片说明
 
-> **Note:** In the years since releasing Lumen, PHP has made a variety of wonderful performance improvements. For this reason, along with the availability of [Laravel Octane](https://laravel.com/docs/octane), we no longer recommend that you begin new projects with Lumen. Instead, we recommend always beginning new projects with [Laravel](https://laravel.com).
+系统演示
+采购商管理后台地址 https://demo1.lingyusk.com/front
 
-## Official Documentation
+供应商后台管理地址 https://demo1.lingyusk.com/front
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+采购商前台网站地址 https://demo1.lingyusk.com/front
 
-## Contributing
+采购商账号：admin 密码：ecp@2024
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+供应商账号：gys@erui.com 密码：ecp@2024
 
-## Security Vulnerabilities
+定时任务
+用于自动处理招标采购系统自动开标以及报名截至等时间相关状态的更新
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+php artisan schedule:run
 
-## License
+消息队列
+用于邮件等的处理
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+php artisan queue:listen
+
+消息通信
+用于竞价信息同步
+
+php artisan workman start|stop|restart
+
+安全&缺陷
+如果您碰到安装和使用问题可以加群联系管理员，将操作流程和截图详细发出来，我们看到后会给出解决方案。
+
+如果有BUG或者安全问题，我们会第一时间修复。
