@@ -9,7 +9,7 @@ lumen（轻量级PHP开发框架）
 Composer一键引入三方扩展
 简约高效的编码风格
 安装教程
-教程地址：https://doc.ruizhaocai.com/#/deploy/
+教程地址：https://doc.starpms.cn/introduction.html
 
 ## 环境要求
 CentOS 7.0+ 、Ubuntu 20+
@@ -28,7 +28,7 @@ MySQL 5.7+
 
 采购商账号：admin 密码：ecp@2024
 
-供应商账号：gys@erui.com 密码：ecp@2024
+供应商账号：demo@lingyusk.com 密码：ecp@2024
 
 定时任务
 用于自动处理招标采购系统自动开标以及报名截至等时间相关状态的更新
